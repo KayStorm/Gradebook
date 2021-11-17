@@ -11,3 +11,4 @@ public static Grades() {
   ArrayList<int> homeworkGrades = new ArrayList<int>();
   
 }
+\\code structure for averages testAverage = testSum / testGrades[0].length;
