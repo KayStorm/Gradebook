@@ -1,0 +1,13 @@
+class RosieGradebook
+import java.util.ArrayList;
+
+public static Students() {
+  string Student001, Student002, Student003;
+  }
+  
+public static Grades() {
+  ArrayList<int> testGrades = new ArrayList<int>();
+  ArrayList<int> classworkGrades = new ArrayList<int>();
+  ArrayList<int> homeworkGrades = new ArrayList<int>();
+  
+}
