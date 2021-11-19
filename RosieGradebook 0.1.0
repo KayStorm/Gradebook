@@ -5,10 +5,23 @@ public static Students() {
   string Student001, Student002, Student003;
   }
   
-public static Grades() {
+public static main Grades() {
   ArrayList<int> testGrades = new ArrayList<int>();
   ArrayList<int> classworkGrades = new ArrayList<int>();
   ArrayList<int> homeworkGrades = new ArrayList<int>();
   
+  int testGrades = {70, 80, 90};
+  int classworkGrades = {100, 95, 100, 90, 85, 100, 90};
+  int homeworkGrades = {90, 90, 90, 100, 100};
+  
+  double testSum = 0;
+  for (t = 0; t < testGrades[].length; t++} {
+    testSum += testSum + testGrades[];
+  }
+  
 }
-\\code structure for averages testAverage = testSum / testGrades[0].length;
+testAverage = testSum / testGrades[0].length;
+System.out.println(testAverage);
+
+\\classworkAverage = classworkSum / classworkGrades[0].length;
+\\homeworkAverage = homeworkSum / homeworkGrades[0}.length;
