@@ -1,27 +1,38 @@
-class RosieGradebook
-import java.util.ArrayList;
+public class GradeAverages {
 
-public static Students() {
-  string Student001, Student002, Student003;
-  }
-  
-public static main Grades() {
-  ArrayList<int> testGrades = new ArrayList<int>();
-  ArrayList<int> classworkGrades = new ArrayList<int>();
-  ArrayList<int> homeworkGrades = new ArrayList<int>();
-  
-  int testGrades = {70, 80, 90};
-  int classworkGrades = {100, 95, 100, 90, 85, 100, 90};
-  int homeworkGrades = {90, 90, 90, 100, 100};
-  
-  double testSum = 0;
-  for (t = 0; t < testGrades[].length; t++} {
-    testSum += testSum + testGrades[];
-  }
-  
+    public static void main(String[] args) {
+
+        double[] testGrades = {68.3, 71.5, 100.0};
+        double[] classworkGrades = {100, 95, 100, 90, 85, 100, 90};
+        double[] homeworkGrades = {42, 89, 99, 100, 95};
+
+        double testSum = 0.0;
+        int tLength = testGrades.length;
+        for (int t = 0; t < tLength; t++) {
+            testSum += testGrades[t];
+        }
+        double testAverage = testSum / tLength;
+        System.out.println("Test Average: " + testAverage);
+
+        double classworkSum = 0.0;
+        int cLength = classworkGrades.length;
+        for (int t = 0; t < cLength; t++) {
+            classworkSum += classworkGrades[t];
+        }
+        double classworkAverage = classworkSum / cLength;
+        System.out.println("Classwork Average: " + classworkAverage);
+
+        double homeworkSum = 0.0;
+        int hLength = homeworkGrades.length;
+        for (int t = 0; t < hLength; t++) {
+            homeworkSum += homeworkGrades[t];
+        }
+        double homeworkAverage = homeworkSum / hLength;
+        System.out.println("Homework Average: " + homeworkAverage);
+
+        double weightedAverage = (homeworkAverage * .2) + (classworkAverage * .3) + (testAverage * .5);
+        System.out.println("Weighted Class Average: " + weightedAverage);
+    }
+
 }
-testAverage = testSum / testGrades[0].length;
-System.out.println(testAverage);
 
-\\classworkAverage = classworkSum / classworkGrades[0].length;
-\\homeworkAverage = homeworkSum / homeworkGrades[0}.length;
