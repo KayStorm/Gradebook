@@ -2,6 +2,8 @@ public class GradeAverages {
 
     public static void main(String[] args) {
 
+//how do I access2D arrays from another variable?
+
         double[] testGrades = {68.3, 71.5, 100.0};
         double[] classworkGrades = {100, 95, 100, 90, 85, 100, 90};
         double[] homeworkGrades = {42, 89, 99, 100, 95};
