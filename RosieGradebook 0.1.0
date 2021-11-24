@@ -4,6 +4,8 @@ public class GradeAverages {
 
 //how do I access2D arrays from another variable?
 
+        double[] studentA = {98.9, 78.3, 100.0, 80.1} //This isn't going to work :(
+        
         double[] testGrades = {68.3, 71.5, 100.0};
         double[] classworkGrades = {100, 95, 100, 90, 85, 100, 90};
         double[] homeworkGrades = {42, 89, 99, 100, 95};
