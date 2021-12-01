@@ -1,0 +1,11 @@
+import javax.swing.JTable;
+import javax.swing.JFrame;
+import javax.swing.JScrollPane;
+
+public class GradeTable {
+JFrame f = new JFrame("Grades");
+f.setSize(450, 475);
+f.setLocation(120, 60);
+
+
+}
