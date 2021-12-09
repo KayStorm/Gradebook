@@ -2,10 +2,27 @@ import javax.swing.JTable;
 import javax.swing.JFrame;
 import javax.swing.JScrollPane;
 
-public class GradeTable {
+public static class RosieTableForGrades {
+
 JFrame f = new JFrame("Grades");
 f.setSize(450, 475);
 f.setLocation(120, 60);
 
+JTable j;
 
+//data
+double[][] gradeData = {{98.3, 77.87, 100, 90}, {60.0, 80.0, 95.9, 33.8}, {100.0, 98.1, 92.4, 97.6}};
+
+//column names
+String[] columnNames = {"Lesson 1 Test", "Lesson 1 Worksheet", "Lesson 1 Homework", "Lesson 2 Worksheet"};
+
+
+//setting up the table, I think
+j = new JTable(gradeData, columnNames);
+ j.setBounds(30,40,200,300);
+ 
+JScrollPane scrollPane = new JScrollPane(table);
+table.setFillsViewportHeight(true);
+
+}
 }
